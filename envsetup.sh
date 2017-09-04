@@ -1,3 +1,6 @@
+export WITH_SU=true
+export KBUILD_BUILD_HOST="lenovo"
+export KBUILD_BUILD_USER="umang"
 function hmm() {
 cat <<EOF
 Invoke ". build/envsetup.sh" from your shell to add the following functions to your environment:
